@@ -1,0 +1,141 @@
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+.username{
+  font-size: 30px;
+}
+
+.name{
+  text-align: center;
+}
+
+.datesTable {
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+.datesTable table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.datesTable th, .datesTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.datesTable th {
+  background-color: #f2f2f2;
+}
+
+.datesTable input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+
+
+.buttonSec {
+  margin-top: 20px;
+}
+
+.buttonSec button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonSec button:hover {
+  background-color: #45a049;
+}
+
+.buttonSec button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+.buttonSec{
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+.response {
+  background-color: #b4bebd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+ font-size: larger;
+
+}
+
+.response h2 {
+  color: white;
+}
+
+.response table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.response table, .response th, .response td {
+  border: 1px solid #ddd;
+}
+
+.response th, .response td {
+  padding: 8px;
+  text-align: left;
+}
+
+.response button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.response button:hover {
+  background-color: #45a049;
+}
+
+
+
+@media screen and (max-width: 600px) {
+.response{
+  max-width: 280px;
+}
+  .datesTable{
+    margin-left: 10%;
+  }
+
+  .datesTable th, .datesTable td {
+    padding: 8px;
+  }
+
+  .datesTable input[type="time"] {
+    width: 80%;
+  }
+}
